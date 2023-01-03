@@ -53,6 +53,7 @@
       <button disabled={isOver} on:click={() => setTile(id)} class="tile">{tile}</button>
     {/each}
   </section>
+  <button on:click={() => location.reload()}>Refresh</button>
 </main>
 
 <style> 
